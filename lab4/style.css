@@ -1,0 +1,28 @@
+body {
+    background-color: #ec9f9f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #141313;
+}
+h1 {
+    color: #191d21;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#images img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ece1e9;
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
